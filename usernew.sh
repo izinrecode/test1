@@ -6,7 +6,7 @@ read -p "Expired (hari): " masaaktif
 
 IP=$(wget -qO- icanhazip.com);
 domain=$(cat /etc/v2ray/domain);
-echo Script AutoCreate Akun SSH dan OpenVPN Mod By SL
+echo Script AutoCreate Akun SSH dan OpenVPN JOMBLOSSH
 sleep 1
 echo Ping Host
 echo Cek Hak Akses...
@@ -32,7 +32,8 @@ echo -e "IP Server         : $IP"
 echo -e "Host              : $domain"
 echo -e "OpenSSH           : 22, 500"
 echo -e "Dropbear          : 143, 109"
-echo -e "WS-SSH            : 8880"
+echo -e "WS-SSH            : 2082"
+echo -e "WS-OVPN           : 2086"
 echo -e "WS-SSH SSL/TLS    : 443"
 echo -e "SSL/TLS           : 444"
 echo -e "BadVPN/UDPGW      : 7100, 7200, 7300"
