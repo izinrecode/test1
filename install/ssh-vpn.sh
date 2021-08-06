@@ -300,7 +300,7 @@ chmod +x restart
 chmod +x speedtest
 chmod +x info
 chmod +x about
-chmod +x autokill
+chmod +x autokick
 chmod +x tendang
 chmod +x ceklim
 chmod +x ram
