@@ -13,7 +13,7 @@ chronyc sourcestats -v
 chronyc tracking -v
 date
 # install v2ray
-GitUser="fisabiliyusri"
+GitUser="izinrecode"
 #wget https://github.com/${GitUser}/
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
@@ -55,7 +55,7 @@ cat> /etc/v2ray/config.json << END
           ]
         },
         "wsSettings": {
-          "path": "/v2ray",
+          "path": "/jomblossh",
           "headers": {
             "Host": ""
           }
@@ -143,7 +143,7 @@ cat> /etc/v2ray/none.json << END
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/v2ray",
+          "path": "/jomblossh",
           "headers": {
             "Host": ""
           }
@@ -240,7 +240,7 @@ cat> /etc/v2ray/vless.json << END
           ]
         },
         "wsSettings": {
-          "path": "/v2ray",
+          "path": "/jomblossh",
           "headers": {
             "Host": ""
           }
@@ -327,7 +327,7 @@ cat> /etc/v2ray/vnone.json << END
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/v2ray",
+          "path": "/jomblossh",
           "headers": {
             "Host": ""
           }
