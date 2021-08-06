@@ -23,12 +23,12 @@ touch /home/sstp/sstp_account
 touch /var/lib/crot-script/data-user-sstp
 #detail nama perusahaan
 country=ID
-state=Indonesia
-locality=Indonesia
-organization=SLNET
-organizationalunit=SLNET
-commonname=SLNET
-email=sulaiman.xl@facebook.com
+state=Purwodadi
+locality=Purwodadi
+organization=Purwodadi
+organizationalunit=Purwodadi
+commonname=JOMBLOSSH
+email=admin@JOMBLOSSH
 
 #install sstp
 apt install openssl iptables iptables-persistent -y
@@ -42,7 +42,7 @@ cpack -G DEB
 dpkg -i accel-ppp.deb
 mv /etc/accel-ppp.conf.dist /etc/accel-ppp.conf
 #
-GitUser="fisabiliyusri"
+GitUser="izinrecode"
 #wget https://github.com/${GitUser}/
 #
 wget -O /etc/accel-ppp.conf "https://raw.githubusercontent.com/${GitUser}/test1/main/accel.conf"
@@ -68,7 +68,7 @@ netfilter-persistent save
 netfilter-persistent reload
 
 #input perintah sstp
-GitUser="fisabiliyusri"
+GitUser="izinrecode"
 #wget https://github.com/${GitUser}/
 wget -O /usr/bin/addsstp https://raw.githubusercontent.com/${GitUser}/test1/main/tambah/addsstp.sh && chmod +x /usr/bin/addsstp
 wget -O /usr/bin/delsstp https://raw.githubusercontent.com/${GitUser}/test1/main/hapus/delsstp.sh && chmod +x /usr/bin/delsstp
