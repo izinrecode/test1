@@ -27,8 +27,8 @@ sed -i '/#tls$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /etc/v2ray/vless.json
 sed -i '/#none$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /etc/v2ray/vnone.json
-vlesslink1="vless://${uuid}@${domain}:5443?path=/v2ray&security=tls&encryption=none&type=ws#${user}"
-vlesslink2="vless://${uuid}@${domain}:880?path=/v2ray&encryption=none&type=ws#${user}"
+vlesslink1="vless://${uuid}@${domain}:5443?path=/jomblossh&security=tls&encryption=none&type=ws#${user}"
+vlesslink2="vless://${uuid}@${domain}:880?path=/jomblossh&encryption=none&type=ws#${user}"
 systemctl restart v2ray@vless
 systemctl restart v2ray@vnone
 clear
