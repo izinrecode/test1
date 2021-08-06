@@ -1,9 +1,9 @@
 #!/bin/bash
-# Mod By SL
+# Mod By SL remake JOMBLOSSH
 # 
 # ==================================================
 
-GitUser="fisabiliyusri"
+GitUser="izinrecode"
 #wget https://github.com/${GitUser}/
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -15,12 +15,12 @@ ver=$VERSION_ID
 
 #detail nama perusahaan
 country=ID
-state=Indonesia
-locality=Indonesia
-organization=SL
-organizationalunit=SL
+state=Purwodadi
+locality=Purwodadi
+organization=JSTFREENET
+organizationalunit=JSTFREENET
 commonname=0.0.0.0
-email=sulaiman.xl@facebook.com
+email=admin@jomblossh.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/${GitUser}/test1/main/password"
@@ -97,7 +97,7 @@ rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/${GitUser}/test1/main/nginx.conf"
 mkdir -p /home/vps/public_html
-echo "<pre>Setup Mod By SL</pre>" > /home/vps/public_html/index.html
+echo "<pre>Setup By JOMBLOSSH.TECH</pre>" > /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/${GitUser}/test1/main/vps.conf"
 /etc/init.d/nginx restart
 
