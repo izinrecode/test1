@@ -36,7 +36,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "/v2ray",
+      "path": "/jomblossh",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -51,7 +51,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "/v2ray",
+      "path": "/jomblossh",
       "type": "none",
       "host": "",
       "tls": "none"
@@ -68,16 +68,16 @@ echo -e "Remarks        : ${user}"
 echo -e "Domain         : ${domain}"
 echo -e "Server IP      : $PUBLIC_IP"
 echo -e "port TLS       : 4443"
-echo -e "port none TLS  : 80"
+echo -e "port none TLS  : 780"
 echo -e "id             : ${uuid}"
 echo -e "alterId        : 2"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path           : /v2ray"
+echo -e "path           : /jomblossh"
 echo -e "================================="
 echo -e "link TLS       : ${vmesslink1}"
 echo -e "================================="
 echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
 echo -e "Expired On     : $exp"
-echo -e "Mod By SL"
+echo -e "JOMBLOSSH"
