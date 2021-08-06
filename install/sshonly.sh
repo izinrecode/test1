@@ -10,7 +10,7 @@ MYIP2="s/xxxxxxxxx/$MYIP/g";
 
 
 #wget https://github.com/${GitUser}/
-GitUser="fisabiliyusri"
+GitUser="izinrecode"
 #wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/hanyassh.sh && chmod +x hanyassh.sh && screen -S hanyassh.sh ./hanyassh.sh
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
@@ -36,14 +36,15 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-Script Mod SL YNTKTS-===========================" | tee -a log-install.txt
+echo "=================================-Script JOMBLOSSH-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                  : 22, 500"  | tee -a log-install.txt
 echo "   - SSH-WS OpenSSH           : 2095"  | tee -a log-install.txt
-echo "   - SSH-WS Dropbear          : 8880"  | tee -a log-install.txt
+echo "   - SSH-WS Dropbear          : 2082"  | tee -a log-install.txt
+echo "   - SSH-WS OVPN              : 2086"  | tee -a log-install.txt
 echo "   - SSH-WS SSL/TLS           : 443"  | tee -a log-install.txt
 echo "   - Stunnel4 SSL/TLS         : 444, 777"  | tee -a log-install.txt
 echo "   - Dropbear                 : 143, 109"  | tee -a log-install.txt
@@ -60,7 +61,7 @@ echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
 echo "   - Autoreboot On 00.00 GMT +7" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "------------------------------------------Mod by SL------------------------------------------" | tee -a log-install.txt
+echo "------------------------------------------JSTFREENET------------------------------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 10 Sec"
 sleep 10
