@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script Mod by SL
+# Script JOMBLOSSH
 clear
 echo " "
 echo " "
@@ -72,5 +72,5 @@ echo " Multi Login = kill "
 echo " Cara pakai : kill [nombor PID] "
 echo "-------------------------------------"
 
-echo " Mod By SL"
+echo " JOMBLOSSH"
 echo "";
