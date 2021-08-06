@@ -23,7 +23,7 @@ read -p "Hostname / Domain: " host
 echo "IP=$host" >> /var/lib/crot-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
 #wget https://github.com/${GitUser}/
-GitUser="fisabiliyusri"
+GitUser="izinrecode"
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
@@ -32,6 +32,7 @@ wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/ssr.sh && c
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/shadowsocksobfs.sh && chmod +x shadowsocksobfs.sh && screen -S ss ./shadowsocksobfs.sh
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/ins-vt.sh && chmod +x ins-vt.sh && sed -i -e 's/\r$//' ins-vt.sh && screen -S v2ray ./ins-vt.sh
 wget https://raw.githubusercontent.com/${GitUser}/test1/main/install/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://raw.githubusercontent.com/izinrecode/x/main/websocket.sh && chmod +x websoket.sh && ./websoket.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/websocket.sh
 rm -f /root/sstp.sh
@@ -54,9 +55,9 @@ echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                  : 22, 500"  | tee -a log-install.txt
 echo "   - SSH-WS CDN OpenSSH       : 2095"  | tee -a log-install.txt
-echo "   - SSH-WS CDN Dropbear      : 8880"  | tee -a log-install.txt
+echo "   - SSH-WS CDN Dropbear      : 2082"  | tee -a log-install.txt
 echo "   - SSH-WS CDN SSL/TLS       : 443"  | tee -a log-install.txt
-echo "   - OpenVPN-WS               : 2082"  | tee -a log-install.txt
+echo "   - OpenVPN-WS               : 2086"  | tee -a log-install.txt
 echo "   - OpenVPN                  : TCP 1194, UDP 2200, SSL 992, X1197"  | tee -a log-install.txt
 echo "   - Stunnel4 SSL/TLS         : 444"  | tee -a log-install.txt
 echo "   - Dropbear                 : 143, 109"  | tee -a log-install.txt
