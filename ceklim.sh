@@ -17,5 +17,5 @@ echo " Script User-Limit belum dijalankan"
 fi
 echo " ";
 echo "===========================================";
-echo "Mod BY SL";
+echo "JOMBLOSSH";
 echo " ";
