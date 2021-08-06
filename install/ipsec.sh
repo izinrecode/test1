@@ -2,7 +2,7 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# Mod by SL
+# Mod JOMBLOSSH
 # ==================================================
 
 VPN_IPSEC_PSK='vpn'
@@ -279,7 +279,7 @@ mkdir -p /run/pluto
 service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
-GitUser="fisabiliyusri"
+GitUser="izinrecode"
 #wget https://github.com/${GitUser}/
 wget -O /usr/bin/addl2tp https://raw.githubusercontent.com/${GitUser}/test1/main/tambah/addl2tp.sh && chmod +x /usr/bin/addl2tp
 wget -O /usr/bin/dell2tp https://raw.githubusercontent.com/${GitUser}/test1/main/hapus/dell2tp.sh && chmod +x /usr/bin/dell2tp
