@@ -89,4 +89,4 @@ clear
 	echo -e "==========================="
 	echo -e "Link OBFS HTTP : $linkss2"
 	echo -e "==========================="
-	echo -e "Script Mod by SL"
+	echo -e "JOMBLOSSH"
