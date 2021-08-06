@@ -2,7 +2,7 @@
 #Menu
 clear
 echo -e "=============================-Menu-============================="
-echo -e "* Script       : YNTKTS "
+echo -e "* Script       : JOMBLOSSH "
 echo -e "* menu         : List of Main Commands "
 echo -e ""
 echo -e "=========================-SSH & OpenVPN-========================"
