@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod By SL
+# Mod JOMBLO
 #!/bin/bash
 clear
 MAX=2
