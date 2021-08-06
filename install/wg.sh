@@ -2,7 +2,7 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# Mod by SL
+# Mod JOMBLOSSH
 # ==================================================
 
 # Check OS version
@@ -87,7 +87,7 @@ systemctl is-active --quiet "wg-quick@wg0"
 WG_RUNNING=$?
 
 # Tambahan
-GitUser="fisabiliyusri"
+GitUser="izinrecode"
 #wget https://github.com/${GitUser}/
 cd /usr/bin
 wget -O addwg "https://raw.githubusercontent.com/${GitUser}/test1/main/tambah/addwg.sh"
